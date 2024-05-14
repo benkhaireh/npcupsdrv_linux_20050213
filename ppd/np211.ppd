@@ -1,0 +1,189 @@
+*PPD-Adobe:             "4.3"
+*FormatVersion:         "4.3"
+*FileVersion:           "1.1"
+*LanguageVersion:       English 
+*LanguageEncoding:      ISOLatin1
+*PCFileName:            "np211.ppd"
+*Manufacturer:          "NII"
+*Product:               "NP-211"
+*1284DeviceID:          "MFG:NII;MDL:NII W2K203DPI USB;CLS:PRINTER;"
+*cupsVersion:           1.1
+*cupsManualCopies:      True
+*cupsModelNumber:       326
+*cupsFilter:            "application/vnd.cups-raster 0 rastertonp"
+*ModelName:             "NP-211"
+*ShortNickName:         "NP-211"
+*NickName:              "NII NP-211"
+*PSVersion:             "(3010.000) 550"
+*LanguageLevel:         "3"
+*ColorDevice:           False
+*DefaultColorSpace:     Gray
+*FileSystem:            False
+*Throughput:            "1"
+*LandscapeOrientation:  Plus90
+*VariablePaperSize:     True
+*TTRasterizer:          Type42
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: A4
+
+*PageSize X48mmY30MM/48mm * 30mm:              "<</PageSize[136 85]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY40MM/48mm * 40mm:              "<</PageSize[136 113]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY50MM/48mm * 50mm:              "<</PageSize[136 141]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY60MM/48mm * 60mm:              "<</PageSize[136 170]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY70MM/48mm * 70mm:              "<</PageSize[136 198]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY80MM/48mm * 80mm:              "<</PageSize[136 226]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY90MM/48mm * 90mm:              "<</PageSize[136 255]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY100MM/48mm * 100mm:            "<</PageSize[136 283]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY110MM/48mm * 110mm:            "<</PageSize[136 311]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY120MM/48mm * 120mm:            "<</PageSize[136 340]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY130MM/48mm * 130mm:            "<</PageSize[136 368]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY140MM/48mm * 140mm:            "<</PageSize[136 396]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY150MM/48mm * 150mm:            "<</PageSize[136 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY160MM/48mm * 160mm:            "<</PageSize[136 453]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY170MM/48mm * 170mm:            "<</PageSize[136 481]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY180MM/48mm * 180mm:            "<</PageSize[136 510]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY190MM/48mm * 190mm:            "<</PageSize[136 538]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY200MM/48mm * 200mm:            "<</PageSize[136 566]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize X48mmY1000M/48mm * 1000mm:           "<</PageSize[136 1417]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+
+*% Zoom resolution calculation note
+*% A4 real width = 209mm = 8.23in
+*% Printer real width = 72mm = 576 dots
+*% Printer real resolution = 203dpi
+*% Rendering resolution = floor(576 dots / (8.23in * (1 - zoom)))
+*% 69 = floor(576 / (8.23 * (1 - 0)))
+*% 139 = floor(576 / (8.23 * (1 - .5)))
+*PageSize A4/A4:                "<</PageSize[595 842]/HWResolution[69 69]/ImagingBBox null>>setpagedevice"
+
+*PageSize Letter/Letter:        "<</PageSize[612 792]/HWResolution[67 67]/ImagingBBox null>>setpagedevice"
+
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: A4
+
+*PageRegion X48mmY30MM/48mm * 30mm:              "<</PageSize[136 85]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY40MM/48mm * 40mm:              "<</PageSize[136 113]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY50MM/48mm * 50mm:              "<</PageSize[136 141]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY60MM/48mm * 60mm:              "<</PageSize[136 170]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY70MM/48mm * 70mm:              "<</PageSize[136 198]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY80MM/48mm * 80mm:              "<</PageSize[136 226]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY90MM/48mm * 90mm:              "<</PageSize[136 255]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY100MM/48mm * 100mm:            "<</PageSize[136 283]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY110MM/48mm * 110mm:            "<</PageSize[136 311]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY120MM/48mm * 120mm:            "<</PageSize[136 340]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY130MM/48mm * 130mm:            "<</PageSize[136 368]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY140MM/48mm * 140mm:            "<</PageSize[136 396]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY150MM/48mm * 150mm:            "<</PageSize[136 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY160MM/48mm * 160mm:            "<</PageSize[136 453]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY170MM/48mm * 170mm:            "<</PageSize[136 481]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY180MM/48mm * 180mm:            "<</PageSize[136 510]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY190MM/48mm * 190mm:            "<</PageSize[136 538]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY200MM/48mm * 200mm:            "<</PageSize[136 566]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion X48mmY1000M/48mm * 1000mm:           "<</PageSize[136 1417]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+
+*PageRegion A4/A4:                "<</PageSize[595 842]/HWResolution[69 69]/ImagingBBox null>>setpagedevice"
+
+*PageRegion Letter/Letter:        "<</PageSize[612 792]/HWResolution[67 67]/ImagingBBox null>>setpagedevice"
+
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: A4 
+
+*ImageableArea X48MMY30MM:          "0.0 0.0 136.0 85.0"
+*ImageableArea X48MMY40MM:          "0.0 0.0 136.0 113.0"
+*ImageableArea X48MMY50MM:          "0.0 0.0 136.0 141.0"
+*ImageableArea X48MMY60MM:          "0.0 0.0 136.0 170.0"
+*ImageableArea X48MMY70MM:          "0.0 0.0 136.0 198.0"
+*ImageableArea X48MMY80MM:          "0.0 0.0 136.0 226.0"
+*ImageableArea X48MMY90MM:          "0.0 0.0 136.0 255.0"
+*ImageableArea X48MMY100MM:         "0.0 0.0 136.0 283.0"
+*ImageableArea X48MMY110MM:         "0.0 0.0 136.0 311.0"
+*ImageableArea X48MMY120MM:         "0.0 0.0 136.0 340.0"
+*ImageableArea X48MMY130MM:         "0.0 0.0 136.0 368.0"
+*ImageableArea X48MMY140MM:         "0.0 0.0 136.0 396.0"
+*ImageableArea X48MMY150MM:         "0.0 0.0 136.0 425.0"
+*ImageableArea X48MMY160MM:         "0.0 0.0 136.0 453.0"
+*ImageableArea X48MMY170MM:         "0.0 0.0 136.0 481.0"
+*ImageableArea X48MMY180MM:         "0.0 0.0 136.0 510.0"
+*ImageableArea X48MMY190MM:         "0.0 0.0 136.0 538.0"
+*ImageableArea X48MMY200MM:         "0.0 0.0 136.0 566.0"
+*ImageableArea X48MMY2000MM:        "0.0 0.0 136.0 2834.0"
+
+*ImageableArea A4:                  "0.0 0.0 595.0 842.0"
+
+*ImageableArea Letter:              "0.0 0.0 612.0 792.0"
+
+*DefaultPaperDimension: A4
+
+*PaperDimension X48MMY30MM:         "136 85"
+*PaperDimension X48MMY40MM:         "136 113"
+*PaperDimension X48MMY50MM:         "136 141"
+*PaperDimension X48MMY60MM:         "136 170"
+*PaperDimension X48MMY70MM:         "136 198"
+*PaperDimension X48MMY80MM:         "136 226"
+*PaperDimension X48MMY90MM:         "136 255"
+*PaperDimension X48MMY100MM:        "136 283"
+*PaperDimension X48MMY110MM:        "136 311"
+*PaperDimension X48MMY120MM:        "136 340"
+*PaperDimension X48MMY130MM:        "136 368"
+*PaperDimension X48MMY140MM:        "136 396"
+*PaperDimension X48MMY150MM:        "136 425"
+*PaperDimension X48MMY160MM:        "136 453"
+*PaperDimension X48MMY170MM:        "136 481"
+*PaperDimension X48MMY180MM:        "136 510"
+*PaperDimension X48MMY190MM:        "136 538"
+*PaperDimension X48MMY200MM:        "136 566"
+*PaperDimension X48MMY2000MM:       "136 2834"
+
+*PaperDimension A4:                 "595 842"
+
+*PaperDimension Letter:             "612 792"
+
+*MaxMediaWidth:  "226"
+*MaxMediaHeight: "5670"
+*HWMargins:      0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width:        1 points 72 226
+*ParamCustomPageSize Height:       2 points 72 5670
+*ParamCustomPageSize WidthOffset:  3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation:  5 int 0 0
+
+*OpenGroup: NPOutputGroup/NP-211 Output Options
+*OpenUI *PrintDensity/1. Print Density: PickOne
+*DefaultPrintDensity: 0Normal
+*PrintDensity 0P65/65%: ""
+*PrintDensity 1P70/70%: ""
+*PrintDensity 2P75/75%: ""
+*PrintDensity 3P80/80%: ""
+*PrintDensity 4P85/85%: ""
+*PrintDensity 5P90/90%: ""
+*PrintDensity 6P95/95%: ""
+*PrintDensity 7P100/100%: ""
+*PrintDensity 8P105/105%: ""
+*PrintDensity 9P110/110%: ""
+*PrintDensity 10P115/115%: ""
+*PrintDensity 11P120/120%: ""
+*PrintDensity 12P125/125%: ""
+*PrintDensity 13P130/130%: ""
+*CloseUI: *PrintDensity
+
+*OpenUI *PageType/2. Page Type: PickOne
+*DefaultPageType: 0Variable
+*PageType 0Variable/Variable Length: ""
+*PageType 1Fixed/Fixed Length: ""
+*CloseUI: *PageType
+
+*OpenUI *CutActionTiming/2. Cut Action Timing: PickOne
+*DefaultCutActionTiming: 0NoCutPage
+*CutActionTiming 1PageEnd/Page End: ""
+*CutActionTiming 2DocEnd/Document End: ""
+*CloseUI: *CutActionTiming
+
+*CloseGroup: NPOutputGroup
+
+*% End
